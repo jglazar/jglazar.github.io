@@ -20,8 +20,8 @@ I am a PhD candidate and [National Defense Science & Engineering Graduate
 Fellow](https://ndseg.org/about) studying computational biophysics at Penn. 
 
 My dissertation work with [Prof. Vivek Shenoy](https://shenoy.seas.upenn.edu)
-focuses on DNA architecture. I developed [🐦‍⬛ GENTLEChrO](/dissertation/)
-to model DNA's heirarchical spatial structure. I wrote the code in C++, with 
+focuses on 🧬 DNA architecture. I developed [🐦‍⬛ GENTLEChrO](/dissertation/)
+to model DNA's hierarchical spatial structure. I wrote the code in C++, with 
 Python for data analysis.
 
 Earlier in my PhD, I studied the [⚡️ electronic structure of 2D
