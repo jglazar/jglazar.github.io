@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Stock Pitch Competition
-description: 
+title: PBG Stock Pitch Competition
+description: Finding, analyzing, and valuing a winning stock
 img: assets/img/sp-project_pbg_logo.png
 importance: 1
 category: work

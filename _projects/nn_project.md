@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Neural Network Uncertainty
-description: Final project from CIS545 Big Data Analysis class at Penn
+description: Final project for my Big Data Analytics class 
 img: assets/img/nn-project_neural_net.png
 importance: 1
 category: work
