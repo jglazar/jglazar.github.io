@@ -1,13 +1,13 @@
 ---
 layout: page
-title: WorldQuant Global Alphathon
-description: Creating alpha strategies for portfolios
+title: WorldQuant International Quant Championship
+description: Creating alpha strategies for portfolio construction
 img: assets/img/wq-project_alpha.png
 importance: 1
 category: work
 ---
 
-From late March through Fall 2023, [WorldQuant](https://www.worldquant.com) is
+From late March through summer 2023, [WorldQuant](https://www.worldquant.com) is
 running its annual [International Quant
 Championship](https://www.worldquant.com/brain/iqc/).
 
