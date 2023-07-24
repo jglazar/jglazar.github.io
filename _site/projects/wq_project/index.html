@@ -197,7 +197,8 @@ possible too.</p>
 the WorldQuant Brain platform’s excellent <a href="https://platform.worldquantbrain.com/sign-in" target="_blank" rel="noopener noreferrer">📑 documentation</a>.</p>
 
 <p>You can check out all of my <a href="https://github.com/jglazar/notes/blob/main/quant_interview/submitted_alphas.md" target="_blank" rel="noopener noreferrer">📈 submitted alphas</a> in my notes on GitHub.
-Here are a few of my favorites:</p>
+Below are a few of my favorites. The graphs show the alpha’s profit on a $10M
+portfolio over a 5-year backtest from 2016 to 2021</p>
 
 <p>(1) Simple price reversion</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(high + low)/2 - close
@@ -212,6 +213,8 @@ tomorrow.</li>
 a high Sharpe ratio and annual return, but its sensitivity on day-to-day
 changes lead to a high turnover rate too.</li>
 </ul>
+
+<p><img src="/assets/img/wq-project_alpha1pnl.jpg" width="500"></p>
 
 <p>(2) Complicated price reversion</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rel_days_since_max = rank(ts_arg_max(close, 30));
@@ -230,6 +233,8 @@ overweighting just a few stocks.</li>
 data to the mix. Unfortunately, this didn’t decrease turnover though.</li>
 </ul>
 
+<p><img src="/assets/img/wq-project_alpha2pnl.jpg" width="500"></p>
+
 <p>(3) Short overpriced companies</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-ts_zscore(enterprise_value/ebitda, 63)
 </code></pre></div></div>
@@ -247,6 +252,8 @@ This indicates that analyzing earnings reports as soon as they release can
 significantly improve a fundamental-based strategy.</li>
 </ul>
 
+<p><img src="/assets/img/wq-project_alpha3pnl.jpg" width="500"></p>
+
 <p>(4) Hot news with reversion</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>avg_news = vec_avg(nws12_afterhsz_sl);
 rank(ts_sum(avg_news, 60)) &gt; 0.5 ? 1 : rank(-ts_delta(close, 2))
@@ -263,6 +270,8 @@ changed around then, coinciding with the newfound importance of trends in
 remote work, pharmaceuticals, and at-home entertainment.</li>
 </ul>
 
+<p><img src="/assets/img/wq-project_alpha4pnl.jpg" width="500"></p>
+
 <p>(5) Too much buzz is bad</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>buzz = ts_backfill(-vec_sum(scl12_alltype_buzzvec), 20);
 ts_av_diff(buzz, 60)
@@ -277,13 +286,15 @@ starting around March 2020. The social media buzz complements the news data,
 providing sufficiently uncorrelated returns to increase my overall score.</li>
 </ul>
 
+<p><img src="/assets/img/wq-project_alpha5pnl.jpg" width="500"></p>
+
 <p>Overall, I found that price reversion strategies worked especially well for this
 competition. All of the above alphas incorporated some form of price reversion,
 either directly in alphas 1 and 2 or as part of a larger strategy in alpha 4.
 Reversion also appears in alpha 5 as a signal within social media buzz data.</p>
 
 <p>In addition to price reversion, I also found success in leveraging the COVID
-pandemic’s effects on the market. Many alphas that performed poorly pre-COVID
+pandemic’s effects on the market. Many alphas that performed OK pre-COVID
 shot to the moon 🚀 starting around March 2020. COVID clearly kicked off a new
 wave of trading activity that rewarded alphas based on news and social media
 buzz. Alphas like 4 and 5 performed especially well starting around 2020.</p>
