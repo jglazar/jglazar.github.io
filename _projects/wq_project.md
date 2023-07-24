@@ -194,11 +194,10 @@ into the 3rd round!
 
 I had a great time learning about backtesting, alpha generation, and data
 exploration from some of the best quant researchers in the world. The tutorials,
-seminars, and recommended papers complemented each other well.
+seminars, and recommended papers complemented each other very well.
 
-I would like to thank WorldQuant again for putting together such a well-run
-event and exciting event. I'm looking forward to another competition next
-year!
+I would like to thank WorldQuant again for putting together such a well-run and
+exciting event. I'm looking forward to another competition next year!
 
 [alphas]: https://github.com/jglazar/notes/blob/main/quant_interview/submitted_alphas.md
 [ideas]: https://github.com/jglazar/notes/blob/main/quant_interview/alpha_ideas.md
