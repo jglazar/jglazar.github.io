@@ -24,17 +24,13 @@ team USA 🇺🇸!
 
 ## Competition rules
 
-This competition involves building alphas: functions which assign weights to
-each stock in a given universe, dictating how much stock to buy each day as part
-of a portfolio. Alphas specify how to reweights stocks each day using the
-specific data streams. The WorldQuant Brain platform simulates the appropriate
-financial transactions taken to achieve that portfolio. Alphas that produce the
-highest and most stable returns receive high scores.
-
-Contestants generate alphas using operators to process historical stock data
-like price, volume, revenue, options prices, and news coverage. These operators
-and data can be combined in exponentially many ways, opening the door for
-creativity and uniqueness.
+At its core, the WorldQuant International Quant Competition revolves around
+alphas: portfolio construction algorithms that assign weights to
+stocks in a given universe. Alphas specify how to reweight stocks each day using 
+related data streams as input, like the prior day's price, news, or company
+data. The WorldQuant Brain platform does the heavy lifting by simulating an
+alpha's corresponding portfolio. Alphas that produce the highest and most stable
+returns receive high scores.
 
 Alphas are individually scored with a secret formula that weights their Sharpe
 ratio, turnover, and a custom metric named "fitness." Fitness is calculated as
@@ -46,11 +42,12 @@ Scores from each submitted alpha are aggregated such that baskets of alphas with
 strong and uncorrelated returns are highly rewarded. All scores are based on a
 5-year backtest ranging from 2016 to 2021.
 
-Each round pares down the field to fewer and fewer contestants. The first round
-hosted over 29,000 participants. Cutoffs for the second round eliminated all but
-the top 100 contestants from each region. The third round pits the best
-contestants from each region against one another. Then, final round is an
-in-person competition with cash prizes from a $100k pool 💰!
+Each stage in the competition pares down the field to fewer and fewer
+contestants. The first stage hosted over 29,000 participants. Cutoffs for the
+second round eliminated all but the top 100 contestants from each geographic
+region. Upcoming is the third round which pits the best contestants from each
+region against one another. Then, the final round is an in-person competition
+with cash prizes from a $100k pool 💰!
 
 ## Generating alphas
 
@@ -60,14 +57,16 @@ taught about topics from alpha neutralization (unbiasing alphas across different
 industries or sectors) to vector data fields (which provide more than 1 data
 point per day). 
 
-These webinars were the source of countless alpha ideas and tactics to improve performance. 
-My [📝 webinar notes][webinar] list out the alphas and tips shared by the researchers, as well as the 
-answers to some of the questions asked by myself and the other participants.
+These webinars were the source of countless alpha ideas and tactics to improve
+performance. My [📝 webinar notes][webinar] list out the alphas and tips shared
+by the researchers, as well as the answers to some of the questions asked by
+myself and the other participants.
 
-I found WorldQuant's articles to be fantastic sources of new ideas. My
-[📝 article notes][ideas] show hundreds of the alphas I tested. For example, I
-tried *every single one* of the [📈 101 formulaic alphas](https://arxiv.org/pdf/1601.00991.pdf). 
-It took me over an hour, but I managed to find a few worth submitting!
+I found WorldQuant's articles to be fantastic sources of new ideas. My [📝
+article notes][ideas] show hundreds of the alphas I tested. For example, I tried
+*every single one* of the [📈 101 formulaic
+alphas](https://arxiv.org/pdf/1601.00991.pdf). It took me over an hour, but I
+managed to find a few worth submitting!
 
 ## A few alphas
 
