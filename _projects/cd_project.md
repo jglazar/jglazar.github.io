@@ -51,6 +51,13 @@ Financial institutions use these predictions to rank stocks in a basket. They
 buy top-ranked stocks and short-sell bottom-ranked stocks, creating a net
 neutral portfolio. This is called a "long-short" strategy.
 
+CrunchDAO is the best quant competition I've found so far. The opportunity to
+work with real financial data, develop machine learning models, interact with
+professional quants, and compete with thousands of like-minded people is
+amazing! The CrunchDAO crew has been super welcoming and helpful to new members
+like myself, and they're constantly improving the platform. I highly recommend
+CrunchDAO if you're interested in quant finance or machine learning! 🤗
+
 ## The data
 
 CrunchDAO preprocesses and anonymizes its data to encourage participants to use
